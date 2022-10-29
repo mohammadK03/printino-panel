@@ -1,0 +1,41 @@
+{
+  "ImageGallery": {
+    "description": "Auto imported from components/gallery/imageGallery.vue"
+  },
+  "ImageGalleryDialog": {
+    "description": "Auto imported from components/gallery/imageGalleryDialog.vue"
+  },
+  "ProductAttribute": {
+    "description": "Auto imported from components/product/attribute.vue"
+  },
+  "ProductInfo": {
+    "description": "Auto imported from components/product/productInfo.vue"
+  },
+  "ProductComments": {
+    "description": "Auto imported from components/attributes_overview/productComments.vue"
+  },
+  "ProductOverview": {
+    "description": "Auto imported from components/attributes_overview/productOverview.vue"
+  },
+  "ProductSpecifications": {
+    "description": "Auto imported from components/attributes_overview/productSpecifications.vue"
+  },
+  "AddressAdd": {
+    "description": "Auto imported from components/address/addressAdd.vue"
+  },
+  "AddressAll": {
+    "description": "Auto imported from components/address/addressAll.vue"
+  },
+  "AddressMap": {
+    "description": "Auto imported from components/address/addressMap.vue"
+  },
+  "TransactionOrder": {
+    "description": "Auto imported from components/transaction/order.vue"
+  },
+  "TransactionTranactionInfo": {
+    "description": "Auto imported from components/transaction/tranactionInfo.vue"
+  },
+  "TransactionTransactionbacup": {
+    "description": "Auto imported from components/transaction/transactionbacup.vue"
+  }
+}
