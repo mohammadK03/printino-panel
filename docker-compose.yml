@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  front-home:
+    build: .
+    container_name: front-panel
+    image: front-panel
+    restart: always
+    ports:
+      - 3002:3000
+    environment:
+      API_HOST: 127.0.0.1
+      API_PORT: 4000
