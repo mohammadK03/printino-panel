@@ -13,10 +13,10 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_f622123e from 'nuxt_plugin_plugin_f622123e' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_plugin_2d8218b3 from 'nuxt_plugin_plugin_2d8218b3' // Source: .\\vuetify\\plugin.js (mode: 'all')
-import nuxt_plugin_axios_987e16f8 from 'nuxt_plugin_axios_987e16f8' // Source: .\\axios.js (mode: 'all')
-import nuxt_plugin_nuxtizitoastplugin9fd99596_5058948e from 'nuxt_plugin_nuxtizitoastplugin9fd99596_5058948e' // Source: .\\nuxt-izitoast.plugin.9fd99596.js (mode: 'all')
+import nuxt_plugin_plugin_06caaa33 from 'nuxt_plugin_plugin_06caaa33' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_4ef976a1 from 'nuxt_plugin_plugin_4ef976a1' // Source: .\\vuetify\\plugin.js (mode: 'all')
+import nuxt_plugin_axios_7cbcda54 from 'nuxt_plugin_axios_7cbcda54' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_nuxtizitoastplugin31eee887_3084c554 from 'nuxt_plugin_nuxtizitoastplugin31eee887_3084c554' // Source: .\\nuxt-izitoast.plugin.31eee887.js (mode: 'all')
 import nuxt_plugin_otp_48133c3c from 'nuxt_plugin_otp_48133c3c' // Source: ..\\plugins\\otp.js (mode: 'client')
 import nuxt_plugin_upload_8ca86cc0 from 'nuxt_plugin_upload_8ca86cc0' // Source: ..\\plugins\\upload.js (mode: 'client')
 import nuxt_plugin_vueswiper_6a7b4f42 from 'nuxt_plugin_vueswiper_6a7b4f42' // Source: ..\\plugins\\vue-swiper.js (mode: 'client')
@@ -216,20 +216,20 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_f622123e === 'function') {
-    await nuxt_plugin_plugin_f622123e(app.context, inject)
+  if (typeof nuxt_plugin_plugin_06caaa33 === 'function') {
+    await nuxt_plugin_plugin_06caaa33(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_2d8218b3 === 'function') {
-    await nuxt_plugin_plugin_2d8218b3(app.context, inject)
+  if (typeof nuxt_plugin_plugin_4ef976a1 === 'function') {
+    await nuxt_plugin_plugin_4ef976a1(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_987e16f8 === 'function') {
-    await nuxt_plugin_axios_987e16f8(app.context, inject)
+  if (typeof nuxt_plugin_axios_7cbcda54 === 'function') {
+    await nuxt_plugin_axios_7cbcda54(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxtizitoastplugin9fd99596_5058948e === 'function') {
-    await nuxt_plugin_nuxtizitoastplugin9fd99596_5058948e(app.context, inject)
+  if (typeof nuxt_plugin_nuxtizitoastplugin31eee887_3084c554 === 'function') {
+    await nuxt_plugin_nuxtizitoastplugin31eee887_3084c554(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_otp_48133c3c === 'function') {
@@ -265,6 +265,13 @@ async function createApp(ssrContext, config = {}) {
 
   // Wait for async component to be resolved first
   await new Promise((resolve, reject) => {
+    // Ignore 404s rather than blindly replacing URL in browser
+    if (process.client) {
+      const { route } = router.resolve(app.context.route.fullPath)
+      if (!route.matched.length) {
+        return resolve()
+      }
+    }
     router.replace(app.context.route.fullPath, resolve, (err) => {
       // https://github.com/vuejs/vue-router/blob/v3.4.3/src/util/errors.js
       if (!err._isRouter) return reject(err)

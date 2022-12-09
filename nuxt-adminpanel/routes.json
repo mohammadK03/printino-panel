@@ -2,139 +2,162 @@
   {
     "name": "auth",
     "path": "/auth",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\auth\\\\index.vue",
-    "chunkName": "pages/auth/index"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\auth\\\\index.vue",
+    "chunkName": "pages/auth/index",
+    "_name": "_4a765608"
   },
   {
     "name": "auth-forgetpassword",
     "path": "/auth/forgetpassword",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\auth\\\\forgetpassword.vue",
-    "chunkName": "pages/auth/forgetpassword"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\auth\\\\forgetpassword.vue",
+    "chunkName": "pages/auth/forgetpassword",
+    "_name": "_15dbc064"
   },
   {
     "name": "auth-login",
     "path": "/auth/login",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\auth\\\\login.vue",
-    "chunkName": "pages/auth/login"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\auth\\\\login.vue",
+    "chunkName": "pages/auth/login",
+    "_name": "_b7270fda"
   },
   {
     "name": "auth-smsverification",
     "path": "/auth/smsverification",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\auth\\\\smsverification.vue",
-    "chunkName": "pages/auth/smsverification"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\auth\\\\smsverification.vue",
+    "chunkName": "pages/auth/smsverification",
+    "_name": "_6923129e"
   },
   {
     "name": "panel-amin",
     "path": "/panel/amin",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\amin.vue",
-    "chunkName": "pages/panel/amin"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\amin.vue",
+    "chunkName": "pages/panel/amin",
+    "_name": "_2de605a7"
   },
   {
     "name": "panel-brands",
     "path": "/panel/brands",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\brands.vue",
-    "chunkName": "pages/panel/brands"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\brands.vue",
+    "chunkName": "pages/panel/brands",
+    "_name": "_42ece022"
   },
   {
     "name": "panel-category",
     "path": "/panel/category",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\category.vue",
-    "chunkName": "pages/panel/category"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\category.vue",
+    "chunkName": "pages/panel/category",
+    "_name": "_22e116d4"
   },
   {
     "name": "panel-comments",
     "path": "/panel/comments",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\comments.vue",
-    "chunkName": "pages/panel/comments"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\comments.vue",
+    "chunkName": "pages/panel/comments",
+    "_name": "_39f0ccca"
   },
   {
     "name": "panel-create-product",
     "path": "/panel/create-product",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\create-product.vue",
-    "chunkName": "pages/panel/create-product"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\create-product.vue",
+    "chunkName": "pages/panel/create-product",
+    "_name": "_60368f18"
   },
   {
     "name": "panel-dashboard",
     "path": "/panel/dashboard",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\dashboard.vue",
-    "chunkName": "pages/panel/dashboard"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\dashboard.vue",
+    "chunkName": "pages/panel/dashboard",
+    "_name": "_03fab6a4"
   },
   {
     "name": "panel-gallery",
     "path": "/panel/gallery",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\gallery.vue",
-    "chunkName": "pages/panel/gallery"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\gallery.vue",
+    "chunkName": "pages/panel/gallery",
+    "_name": "_deb3ca28"
   },
   {
     "name": "panel-pages",
     "path": "/panel/pages",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\pages\\\\index.vue",
-    "chunkName": "pages/panel/pages/index"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\pages\\\\index.vue",
+    "chunkName": "pages/panel/pages/index",
+    "_name": "_3aea5be4"
   },
   {
     "name": "panel-products",
     "path": "/panel/products",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\products\\\\index.vue",
-    "chunkName": "pages/panel/products/index"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\products\\\\index.vue",
+    "chunkName": "pages/panel/products/index",
+    "_name": "_7d8ff708"
   },
   {
     "name": "panel-properties",
     "path": "/panel/properties",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\properties\\\\index.vue",
-    "chunkName": "pages/panel/properties/index"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\properties\\\\index.vue",
+    "chunkName": "pages/panel/properties/index",
+    "_name": "_096e1b59"
   },
   {
     "name": "panel-sellers",
     "path": "/panel/sellers",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\sellers.vue",
-    "chunkName": "pages/panel/sellers"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\sellers.vue",
+    "chunkName": "pages/panel/sellers",
+    "_name": "_5c2fb36e"
   },
   {
     "name": "panel-transaction",
     "path": "/panel/transaction",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\transaction.vue",
-    "chunkName": "pages/panel/transaction"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\transaction.vue",
+    "chunkName": "pages/panel/transaction",
+    "_name": "_f6be0110"
   },
   {
     "name": "panel-products-Inventory-id",
     "path": "/panel/products/Inventory/:id?",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\products\\\\Inventory\\\\_id.vue",
-    "chunkName": "pages/panel/products/Inventory/_id"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\products\\\\Inventory\\\\_id.vue",
+    "chunkName": "pages/panel/products/Inventory/_id",
+    "_name": "_cc46b990"
   },
   {
     "name": "panel-products-seller-id",
     "path": "/panel/products/seller/:id?",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\products\\\\seller\\\\_id.vue",
-    "chunkName": "pages/panel/products/seller/_id"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\products\\\\seller\\\\_id.vue",
+    "chunkName": "pages/panel/products/seller/_id",
+    "_name": "_0b445d5e"
   },
   {
     "name": "panel-products-id",
     "path": "/panel/products/:id",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\products\\\\_id.vue",
-    "chunkName": "pages/panel/products/_id"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\products\\\\_id.vue",
+    "chunkName": "pages/panel/products/_id",
+    "_name": "_c57fc920"
   },
   {
     "name": "panel-properties-id",
     "path": "/panel/properties/:id",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\properties\\\\_id.vue",
-    "chunkName": "pages/panel/properties/_id"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\properties\\\\_id.vue",
+    "chunkName": "pages/panel/properties/_id",
+    "_name": "_8f65bffe"
   },
   {
     "name": "panel-pages-pageId-rows",
     "path": "/panel/pages/:pageId/rows",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\pages\\\\_pageId\\\\rows\\\\index.vue",
-    "chunkName": "pages/panel/pages/_pageId/rows/index"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\pages\\\\_pageId\\\\rows\\\\index.vue",
+    "chunkName": "pages/panel/pages/_pageId/rows/index",
+    "_name": "_d0f55da4"
   },
   {
     "name": "panel-pages-pageId-rows-rowId-cols",
     "path": "/panel/pages/:pageId/rows/:rowId/cols",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\panel\\\\pages\\\\_pageId\\\\rows\\\\_rowId\\\\cols.vue",
-    "chunkName": "pages/panel/pages/_pageId/rows/_rowId/cols"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\panel\\\\pages\\\\_pageId\\\\rows\\\\_rowId\\\\cols.vue",
+    "chunkName": "pages/panel/pages/_pageId/rows/_rowId/cols",
+    "_name": "_6740bc5d"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\printino\\\\admin-panel\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\printino\\\\printino-panel\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_39fdfaa4"
   }
 ]

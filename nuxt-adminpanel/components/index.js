@@ -1,5 +1,3 @@
-import { wrapFunctional } from './utils'
-
 export { default as ImageGallery } from '../..\\components\\gallery\\imageGallery.vue'
 export { default as ImageGalleryDialog } from '../..\\components\\gallery\\imageGalleryDialog.vue'
 export { default as ProductAttribute } from '../..\\components\\product\\attribute.vue'
@@ -14,16 +12,33 @@ export { default as TransactionOrder } from '../..\\components\\transaction\\ord
 export { default as TransactionTranactionInfo } from '../..\\components\\transaction\\tranactionInfo.vue'
 export { default as TransactionTransactionbacup } from '../..\\components\\transaction\\transactionbacup.vue'
 
-export const LazyImageGallery = import('../..\\components\\gallery\\imageGallery.vue' /* webpackChunkName: "components/image-gallery" */).then(c => wrapFunctional(c.default || c))
-export const LazyImageGalleryDialog = import('../..\\components\\gallery\\imageGalleryDialog.vue' /* webpackChunkName: "components/image-gallery-dialog" */).then(c => wrapFunctional(c.default || c))
-export const LazyProductAttribute = import('../..\\components\\product\\attribute.vue' /* webpackChunkName: "components/product-attribute" */).then(c => wrapFunctional(c.default || c))
-export const LazyProductInfo = import('../..\\components\\product\\productInfo.vue' /* webpackChunkName: "components/product-info" */).then(c => wrapFunctional(c.default || c))
-export const LazyProductComments = import('../..\\components\\attributes_overview\\productComments.vue' /* webpackChunkName: "components/product-comments" */).then(c => wrapFunctional(c.default || c))
-export const LazyProductOverview = import('../..\\components\\attributes_overview\\productOverview.vue' /* webpackChunkName: "components/product-overview" */).then(c => wrapFunctional(c.default || c))
-export const LazyProductSpecifications = import('../..\\components\\attributes_overview\\productSpecifications.vue' /* webpackChunkName: "components/product-specifications" */).then(c => wrapFunctional(c.default || c))
-export const LazyAddressAdd = import('../..\\components\\address\\addressAdd.vue' /* webpackChunkName: "components/address-add" */).then(c => wrapFunctional(c.default || c))
-export const LazyAddressAll = import('../..\\components\\address\\addressAll.vue' /* webpackChunkName: "components/address-all" */).then(c => wrapFunctional(c.default || c))
-export const LazyAddressMap = import('../..\\components\\address\\addressMap.vue' /* webpackChunkName: "components/address-map" */).then(c => wrapFunctional(c.default || c))
-export const LazyTransactionOrder = import('../..\\components\\transaction\\order.vue' /* webpackChunkName: "components/transaction-order" */).then(c => wrapFunctional(c.default || c))
-export const LazyTransactionTranactionInfo = import('../..\\components\\transaction\\tranactionInfo.vue' /* webpackChunkName: "components/transaction-tranaction-info" */).then(c => wrapFunctional(c.default || c))
-export const LazyTransactionTransactionbacup = import('../..\\components\\transaction\\transactionbacup.vue' /* webpackChunkName: "components/transaction-transactionbacup" */).then(c => wrapFunctional(c.default || c))
+// nuxt/nuxt.js#8607
+function wrapFunctional(options) {
+  if (!options || !options.functional) {
+    return options
+  }
+
+  const propKeys = Array.isArray(options.props) ? options.props : Object.keys(options.props || {})
+
+  return {
+    render(h) {
+      const attrs = {}
+      const props = {}
+
+      for (const key in this.$attrs) {
+        if (propKeys.includes(key)) {
+          props[key] = this.$attrs[key]
+        } else {
+          attrs[key] = this.$attrs[key]
+        }
+      }
+
+      return h(options, {
+        on: this.$listeners,
+        attrs,
+        props,
+        scopedSlots: this.$scopedSlots,
+      }, this.$slots.default)
+    }
+  }
+}

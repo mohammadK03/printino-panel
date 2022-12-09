@@ -4,29 +4,29 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _086f979a = () => interopDefault(import('..\\pages\\auth\\index.vue' /* webpackChunkName: "pages/auth/index" */))
-const _18952220 = () => interopDefault(import('..\\pages\\auth\\forgetpassword.vue' /* webpackChunkName: "pages/auth/forgetpassword" */))
-const _5bd18a9e = () => interopDefault(import('..\\pages\\auth\\login.vue' /* webpackChunkName: "pages/auth/login" */))
-const _3ee9a7bc = () => interopDefault(import('..\\pages\\auth\\smsverification.vue' /* webpackChunkName: "pages/auth/smsverification" */))
-const _5b90c845 = () => interopDefault(import('..\\pages\\panel\\amin.vue' /* webpackChunkName: "pages/panel/amin" */))
-const _9e1d1980 = () => interopDefault(import('..\\pages\\panel\\brands.vue' /* webpackChunkName: "pages/panel/brands" */))
-const _220d5a72 = () => interopDefault(import('..\\pages\\panel\\category.vue' /* webpackChunkName: "pages/panel/category" */))
-const _391d1068 = () => interopDefault(import('..\\pages\\panel\\comments.vue' /* webpackChunkName: "pages/panel/comments" */))
-const _b4a964dc = () => interopDefault(import('..\\pages\\panel\\create-product.vue' /* webpackChunkName: "pages/panel/create-product" */))
-const _37425660 = () => interopDefault(import('..\\pages\\panel\\dashboard.vue' /* webpackChunkName: "pages/panel/dashboard" */))
-const _399828e4 = () => interopDefault(import('..\\pages\\panel\\gallery.vue' /* webpackChunkName: "pages/panel/gallery" */))
-const _7cefa082 = () => interopDefault(import('..\\pages\\panel\\pages\\index.vue' /* webpackChunkName: "pages/panel/pages/index" */))
-const _609c05aa = () => interopDefault(import('..\\pages\\panel\\products\\index.vue' /* webpackChunkName: "pages/panel/products/index" */))
-const _59b1097b = () => interopDefault(import('..\\pages\\panel\\properties\\index.vue' /* webpackChunkName: "pages/panel/properties/index" */))
-const _a284f7e0 = () => interopDefault(import('..\\pages\\panel\\sellers.vue' /* webpackChunkName: "pages/panel/sellers" */))
-const _44b1af1a = () => interopDefault(import('..\\pages\\panel\\transaction.vue' /* webpackChunkName: "pages/panel/transaction" */))
-const _020c2a54 = () => interopDefault(import('..\\pages\\panel\\products\\Inventory\\_id.vue' /* webpackChunkName: "pages/panel/products/Inventory/_id" */))
-const _7558de73 = () => interopDefault(import('..\\pages\\panel\\products\\seller\\_id.vue' /* webpackChunkName: "pages/panel/products/seller/_id" */))
-const _c8392adc = () => interopDefault(import('..\\pages\\panel\\products\\_id.vue' /* webpackChunkName: "pages/panel/products/_id" */))
-const _c94da2ba = () => interopDefault(import('..\\pages\\panel\\properties\\_id.vue' /* webpackChunkName: "pages/panel/properties/_id" */))
-const _61d67cd0 = () => interopDefault(import('..\\pages\\panel\\pages\\_pageId\\rows\\index.vue' /* webpackChunkName: "pages/panel/pages/_pageId/rows/index" */))
-const _1ed7967b = () => interopDefault(import('..\\pages\\panel\\pages\\_pageId\\rows\\_rowId\\cols.vue' /* webpackChunkName: "pages/panel/pages/_pageId/rows/_rowId/cols" */))
-const _b5c2e87c = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _4a765608 = () => interopDefault(import('..\\pages\\auth\\index.vue' /* webpackChunkName: "pages/auth/index" */))
+const _15dbc064 = () => interopDefault(import('..\\pages\\auth\\forgetpassword.vue' /* webpackChunkName: "pages/auth/forgetpassword" */))
+const _b7270fda = () => interopDefault(import('..\\pages\\auth\\login.vue' /* webpackChunkName: "pages/auth/login" */))
+const _6923129e = () => interopDefault(import('..\\pages\\auth\\smsverification.vue' /* webpackChunkName: "pages/auth/smsverification" */))
+const _2de605a7 = () => interopDefault(import('..\\pages\\panel\\amin.vue' /* webpackChunkName: "pages/panel/amin" */))
+const _42ece022 = () => interopDefault(import('..\\pages\\panel\\brands.vue' /* webpackChunkName: "pages/panel/brands" */))
+const _22e116d4 = () => interopDefault(import('..\\pages\\panel\\category.vue' /* webpackChunkName: "pages/panel/category" */))
+const _39f0ccca = () => interopDefault(import('..\\pages\\panel\\comments.vue' /* webpackChunkName: "pages/panel/comments" */))
+const _60368f18 = () => interopDefault(import('..\\pages\\panel\\create-product.vue' /* webpackChunkName: "pages/panel/create-product" */))
+const _03fab6a4 = () => interopDefault(import('..\\pages\\panel\\dashboard.vue' /* webpackChunkName: "pages/panel/dashboard" */))
+const _deb3ca28 = () => interopDefault(import('..\\pages\\panel\\gallery.vue' /* webpackChunkName: "pages/panel/gallery" */))
+const _3aea5be4 = () => interopDefault(import('..\\pages\\panel\\pages\\index.vue' /* webpackChunkName: "pages/panel/pages/index" */))
+const _7d8ff708 = () => interopDefault(import('..\\pages\\panel\\products\\index.vue' /* webpackChunkName: "pages/panel/products/index" */))
+const _096e1b59 = () => interopDefault(import('..\\pages\\panel\\properties\\index.vue' /* webpackChunkName: "pages/panel/properties/index" */))
+const _5c2fb36e = () => interopDefault(import('..\\pages\\panel\\sellers.vue' /* webpackChunkName: "pages/panel/sellers" */))
+const _f6be0110 = () => interopDefault(import('..\\pages\\panel\\transaction.vue' /* webpackChunkName: "pages/panel/transaction" */))
+const _cc46b990 = () => interopDefault(import('..\\pages\\panel\\products\\Inventory\\_id.vue' /* webpackChunkName: "pages/panel/products/Inventory/_id" */))
+const _0b445d5e = () => interopDefault(import('..\\pages\\panel\\products\\seller\\_id.vue' /* webpackChunkName: "pages/panel/products/seller/_id" */))
+const _c57fc920 = () => interopDefault(import('..\\pages\\panel\\products\\_id.vue' /* webpackChunkName: "pages/panel/products/_id" */))
+const _8f65bffe = () => interopDefault(import('..\\pages\\panel\\properties\\_id.vue' /* webpackChunkName: "pages/panel/properties/_id" */))
+const _d0f55da4 = () => interopDefault(import('..\\pages\\panel\\pages\\_pageId\\rows\\index.vue' /* webpackChunkName: "pages/panel/pages/_pageId/rows/index" */))
+const _6740bc5d = () => interopDefault(import('..\\pages\\panel\\pages\\_pageId\\rows\\_rowId\\cols.vue' /* webpackChunkName: "pages/panel/pages/_pageId/rows/_rowId/cols" */))
+const _39fdfaa4 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -41,95 +41,95 @@ export const routerOptions = {
 
   routes: [{
     path: "/auth",
-    component: _086f979a,
+    component: _4a765608,
     name: "auth"
   }, {
     path: "/auth/forgetpassword",
-    component: _18952220,
+    component: _15dbc064,
     name: "auth-forgetpassword"
   }, {
     path: "/auth/login",
-    component: _5bd18a9e,
+    component: _b7270fda,
     name: "auth-login"
   }, {
     path: "/auth/smsverification",
-    component: _3ee9a7bc,
+    component: _6923129e,
     name: "auth-smsverification"
   }, {
     path: "/panel/amin",
-    component: _5b90c845,
+    component: _2de605a7,
     name: "panel-amin"
   }, {
     path: "/panel/brands",
-    component: _9e1d1980,
+    component: _42ece022,
     name: "panel-brands"
   }, {
     path: "/panel/category",
-    component: _220d5a72,
+    component: _22e116d4,
     name: "panel-category"
   }, {
     path: "/panel/comments",
-    component: _391d1068,
+    component: _39f0ccca,
     name: "panel-comments"
   }, {
     path: "/panel/create-product",
-    component: _b4a964dc,
+    component: _60368f18,
     name: "panel-create-product"
   }, {
     path: "/panel/dashboard",
-    component: _37425660,
+    component: _03fab6a4,
     name: "panel-dashboard"
   }, {
     path: "/panel/gallery",
-    component: _399828e4,
+    component: _deb3ca28,
     name: "panel-gallery"
   }, {
     path: "/panel/pages",
-    component: _7cefa082,
+    component: _3aea5be4,
     name: "panel-pages"
   }, {
     path: "/panel/products",
-    component: _609c05aa,
+    component: _7d8ff708,
     name: "panel-products"
   }, {
     path: "/panel/properties",
-    component: _59b1097b,
+    component: _096e1b59,
     name: "panel-properties"
   }, {
     path: "/panel/sellers",
-    component: _a284f7e0,
+    component: _5c2fb36e,
     name: "panel-sellers"
   }, {
     path: "/panel/transaction",
-    component: _44b1af1a,
+    component: _f6be0110,
     name: "panel-transaction"
   }, {
     path: "/panel/products/Inventory/:id?",
-    component: _020c2a54,
+    component: _cc46b990,
     name: "panel-products-Inventory-id"
   }, {
     path: "/panel/products/seller/:id?",
-    component: _7558de73,
+    component: _0b445d5e,
     name: "panel-products-seller-id"
   }, {
     path: "/panel/products/:id",
-    component: _c8392adc,
+    component: _c57fc920,
     name: "panel-products-id"
   }, {
     path: "/panel/properties/:id",
-    component: _c94da2ba,
+    component: _8f65bffe,
     name: "panel-properties-id"
   }, {
     path: "/panel/pages/:pageId/rows",
-    component: _61d67cd0,
+    component: _d0f55da4,
     name: "panel-pages-pageId-rows"
   }, {
     path: "/panel/pages/:pageId/rows/:rowId/cols",
-    component: _1ed7967b,
+    component: _6740bc5d,
     name: "panel-pages-pageId-rows-rowId-cols"
   }, {
     path: "/",
-    component: _b5c2e87c,
+    component: _39fdfaa4,
     name: "index"
   }],
 
